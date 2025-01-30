@@ -1,1 +1,8 @@
-
+body {
+  backround-color: black;
+  color: green;
+  width: 980px;
+  margin: 0 auto;
+}
+.Title {
+}
