@@ -1,18 +1,39 @@
+html {
+  padding-bottom: 25px;
+}
+
 body {
   background-color: black;
   color: red;
-  width: 980px;
-  margin: 0 auto;
+  text-align: center;
 }
 
-.Title {
+h1.main-header {
+  font-family: "Andalé Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+h3.sub-header {
   font-family: "Andalé Mono", monospace;
   font-weight: 400;
   font-style: normal;
 }
 
-.Body {
+h1.main-header + h3.sub-header {
+  margin-top: -25px;
+  margin-bottom: 25px;
+}
+
+main {
   font-family: "Monaco", monospace;
   font-weight: 400;
   font-style: normal;
+  text-align: center;
+}
+
+p.description {
+  width: 25%;
+  margin: 0 auto;
 }
