@@ -4,11 +4,13 @@ body {
   width: 980px;
   margin: 0 auto;
 }
+
 .Title {
   font-family: "Andalé Mono", monospace;
   font-weight: 400;
   font-style: normal;
 }
+
 .Body {
   font-family: "Monaco", monospace;
   font-weight: 400;
